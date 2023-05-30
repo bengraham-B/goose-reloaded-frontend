@@ -38,6 +38,32 @@ export default function AddGun() {
 					setUserEmail(object.email)
 					console.log(object.email)
 				} 
+
+				const responseLog = await fetch('https://l3-t16-server.vercel.app/api/log', {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+						"Authorization": `Bearer ${token}`
+					},
+					body: JSON.stringify({
+						type: "POST",
+						user_email: userEmail,
+						user_title: userTitle,
+		
+						bullet_head_make: bulletHeadMake,
+						bullet_head_type: bulletHeadType,
+						bullet_weight: bulletWeight,
+		
+						powder_make: powderMake,
+						powder_type: powderType,
+						powder_weight: powderWeight,
+		
+						casing_make: casingMake,
+		
+						primer_make: primerMake,
+					})
+				})
+
 				const response = await fetch('https://l3-t16-server.vercel.app/api/reload', {
 					method: "POST",
 					headers: {

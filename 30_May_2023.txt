@@ -1,0 +1,9 @@
+Good day.
+
+I apologise for the inconvenience but i saw that I was required to provide a link to a deployed project, I have recently 
+completed my final project, wich is a full-stack MERN application, that offers user authentication and is deployed on Vercel.
+
+Link to Deployed Application: https://goose-reloaded-frontend.vercel.app/auth/login
+
+Frontend Repo Link: https://github.com/bengraham-B/goose-reloaded-frontend
+Backend Repo Link: https://github.com/bengraham-B/L3T16-server
