@@ -29,7 +29,7 @@ export default function Reload(props) {
     //^ Handles the delete function of CRUD operations.
     const handleDelete = async (id, token) => {
 
-        const response = await fetch("http://localhost:8001/api/reload", {
+        const response = await fetch("https://l3-t16-server.vercel.app/api/reload", {
             method: "DELETE",
             body: JSON.stringify({ id: id }),
             headers: {
@@ -52,7 +52,7 @@ export default function Reload(props) {
         setEdit(false)
         console.log(bulletHeadMakeEdit, id)
 
-        const response = await fetch(`http://localhost:8001/api/reload/${id}`, {
+        const response = await fetch(`https://l3-t16-server.vercel.app/api/reload/${id}`, {
             method: "PUT",
             body: JSON.stringify(
                 { 

@@ -25,7 +25,7 @@ export default function UserComp(props) {
 
     //^ This functional will handle the request to make a user an admin
     const handleMakeAdmin = async (id, adminStatus) => {
-        const response = await fetch(`http://localhost:8001/api/user/${id}`, {
+        const response = await fetch(`https://l3-t16-server.vercel.app/api/user/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": 'application/json'
@@ -47,7 +47,7 @@ export default function UserComp(props) {
     
     //^ This functional will handle the request to enable and disable a user's account
     const handleChangePermissions = async (id, permissionsStatus) => {
-        const response = await fetch(`http://localhost:8001/api/user/${id}`, {
+        const response = await fetch(`https://l3-t16-server.vercel.app/api/user/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": 'application/json'

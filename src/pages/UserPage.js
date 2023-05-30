@@ -15,7 +15,7 @@ export default function UserPage() {
 
         //^ This gets all the users from the data base
         const getUsers = async (token) => {
-            const response = await fetch("http://localhost:8001/api/user/users", {
+            const response = await fetch("https://l3-t16-server.vercel.app/api/user/users", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",

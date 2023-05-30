@@ -10,7 +10,7 @@ export default function Signup() {
         setError(null) //^ When the user logins in for the first time their should not be an error and after a failed attempt it will remove the previous error message.
 
         try {
-            const response = await fetch("http://localhost:8001/api/user/signup", {
+            const response = await fetch("https://l3-t16-server.vercel.app/api/user/signup", {
                 method: "POST",
                 body: JSON.stringify({
                     email: email,

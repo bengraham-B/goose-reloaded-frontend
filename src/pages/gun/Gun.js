@@ -20,7 +20,7 @@ export default function Handgun() {
 		
 		async function fetchAllReloads(token) {
 
-			const response = await fetch('http://localhost:8001/api/reload', {
+			const response = await fetch('https://l3-t16-server.vercel.app/api/reload', {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",
