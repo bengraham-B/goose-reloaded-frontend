@@ -1,0 +1,62 @@
+//^ Handgun Page
+
+#Handgun {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    
+    
+    .title-container {
+        width: 100%;
+        height: 10vh;
+        background: $primaryBlue;
+        color: white;
+        @include flex();
+        justify-content: space-around;
+    }
+
+    
+
+    .link-container {
+        width:  100%;
+        @include flex();
+        height: 50px;
+        margin-top: 20px;
+
+
+        button{
+            width: 200px;
+            height: 40px;
+            background: inherit;
+            border: 1px solid $primaryBlue;
+            font-size: 1.3em;
+
+            &:hover {
+                background: blue;
+                color: white;
+            }
+        }
+    }
+
+    .reloads-container {
+        width: 100%;
+        min-height: 80vh;
+        max-height: auto;
+        @include flex();
+        
+        
+        .reload-wrapper{
+            @include flex();
+
+            width: auto;
+            height: auto;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+    }
+}
+
+

@@ -1,0 +1,8 @@
+fixed the issue where when a user adds a reload, they will be directed to the home page. 
+    - Coorection is on addGun.js
+
+Redarding the deployment of the app, I was told that it is nologer a requirement for the task.
+
+Fixed the spelling and grammer errors on, readme.md
+
+Fixed the snapshot test issue.

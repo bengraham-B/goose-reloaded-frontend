@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+@mixin flex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$primaryBlue: blue;
+
+//& Signup Login Styles
+@import "../pages/auth/Login-Signup.scss";
+
+//& Pages styles
+@import "../pages/gun/AddGun";
+@import "../pages/gun/Gun";
+@import "../pages/Home";
+@import "../pages/UserPage";
+@import "../pages/Disabled";
+
+//& Componet Styles
+@import "../Components/Reload";
+@import "../Components/Navbar";
+@import "../Components/UserComp";

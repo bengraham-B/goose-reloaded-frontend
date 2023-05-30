@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+#Login-Signup-form {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+#Login-Signup-form .form-container {
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  box-shadow: 1px 1px 10px 1px grey;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+}
+#Login-Signup-form .form-container .title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Login-Signup-form .form-container .input-container {
+  width: 100%;
+}
+#Login-Signup-form .form-container .input-container input {
+  width: 300px;
+  font-size: 21px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+#Login-Signup-form .form-container .input-container .email-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 25px 0 25px;
+}
+#Login-Signup-form .form-container .input-container .password-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 25px 0 25px;
+}
+#Login-Signup-form .form-container .button-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Login-Signup-form .form-container .button-container button {
+  width: 300px;
+  font-size: 21px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+#Login-Signup-form .form-container .error-container {
+  width: auto;
+  height: auto;
+  background: rgba(255, 0, 0, 0.2);
+  border: 1px red solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+#Login-Signup-form .form-container .error-container h4 {
+  font-size: 21px;
+  color: red;
+  text-align: center;
+}
+#Login-Signup-form .text-container {
+  margin: 20px;
+  font-size: 1.2em;
+}
+#Login-Signup-form .text-container strong {
+  color: blue;
+}
+
+#Add-Handgun {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+}
+#Add-Handgun .title-container {
+  width: 100%;
+  height: 10vh;
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+#Add-Handgun .form-container {
+  width: 100%;
+  min-height: 90vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Add-Handgun .form-container .form-wrapper {
+  height: auto;
+  margin: 20px 20px;
+  width: 80%;
+  border-radius: 5px;
+  color: blue;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+#Add-Handgun .form-container .form-wrapper .title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper {
+  margin: 20px;
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper h2 {
+  margin: 5px;
+}
+#Add-Handgun .form-container .form-wrapper .item-wrapper input {
+  margin: 5px;
+  border: 1px solid blue;
+  font-size: 15px;
+  padding: 5px;
+  width: 90%;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper button {
+  width: 240px;
+  height: 60px;
+  font-size: 21px;
+  border: 1px solid blue;
+  background: none;
+  border-radius: 5px;
+  color: blue;
+}
+#Add-Handgun .form-container .form-wrapper .button-wrapper button:hover {
+  background: blue;
+  color: white;
+}
+
+#Handgun {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+}
+#Handgun .title-container {
+  width: 100%;
+  height: 10vh;
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+#Handgun .link-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 20px;
+}
+#Handgun .link-container button {
+  width: 200px;
+  height: 40px;
+  background: inherit;
+  border: 1px solid blue;
+  font-size: 1.3em;
+}
+#Handgun .link-container button:hover {
+  background: blue;
+  color: white;
+}
+#Handgun .reloads-container {
+  width: 100%;
+  min-height: 80vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Handgun .reloads-container .reload-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#HomePage {
+  width: inherit;
+  min-height: 100vh;
+  max-height: 100%;
+}
+#HomePage .header {
+  width: 100%;
+  height: 10%;
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 31px;
+}
+#HomePage .comp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 90vh;
+  max-height: auto;
+}
+#HomePage .comp-container .wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: auto;
+}
+#HomePage .comp-container .wrapper .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 50px;
+  box-shadow: 10px 10px 0 7.5px black;
+}
+#HomePage .comp-container .wrapper .container:hover {
+  box-shadow: 10px 15px 0 10px blue;
+  border: 1px solid blue;
+}
+#HomePage .comp-container .wrapper .container h3 {
+  color: blue;
+  font-size: 2em;
+}
+#HomePage .comp-container .wrapper .container button {
+  padding: 5px;
+  font-size: 17px;
+  box-shadow: 1px 1px 1px blue;
+  background: none;
+  border: 1px blue solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+#HomePage .comp-container .wrapper .container button a {
+  text-decoration: none;
+  color: blue;
+}
+#HomePage .comp-container .wrapper .container button:hover {
+  background: blue;
+  color: white;
+  border: none;
+}
+#HomePage .comp-container .wrapper .container button:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.user-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Disabled {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Reload-Component {
+  width: 350px;
+  min-height: 500px;
+  max-height: auto;
+  margin: 20px;
+  padding: 10px;
+  border: blue 1px solid;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 5px blue;
+}
+#Reload-Component .rc-title-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  color: blue;
+}
+#Reload-Component .rc-title-container .email-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: orange;
+}
+#Reload-Component .rc-title-container h3 {
+  margin-top: 20px;
+}
+#Reload-Component .rc-title-container .user-title-input {
+  width: 200px;
+  border: 1px solid orange;
+  font-size: 21px;
+  padding: 5px;
+}
+#Reload-Component .reload-container {
+  border: blue 1px solid;
+  border-radius: 5px;
+  margin: 20px 20px;
+  padding: 10px;
+  min-height: 85px;
+  max-height: auto;
+}
+#Reload-Component .reload-container h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  color: blue;
+}
+#Reload-Component .reload-container h4 {
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+}
+#Reload-Component .reload-container p {
+  color: orange;
+  font-size: 1.1em;
+}
+#Reload-Component .reload-container input {
+  border: 1px solid orange;
+  padding: 2px;
+  font-size: 15px;
+  padding-left: 5px;
+  color: orange;
+}
+#Reload-Component .button-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#Reload-Component .button-container button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid blue;
+  background: inherit;
+  color: blue;
+  box-shadow: 5px 5px 0px 2px black;
+}
+#Reload-Component .button-container button:hover {
+  background: blue;
+  color: white;
+}
+#Reload-Component .button-container .cancel-button {
+  background: red;
+  color: white;
+  border: 1px solid red;
+}
+#Reload-Component .button-container .cancel-button:hover {
+  background: red;
+  color: white;
+  border: 1px solid red;
+}
+
+#Navbar {
+  width: 100%;
+  height: 10vh;
+  background: rgb(255, 106, 0);
+  color: white;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  font-family: "poppins";
+}
+#Navbar .home-container {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Navbar .home-container a {
+  color: white;
+  text-decoration: none;
+}
+#Navbar .home-container a:hover {
+  color: blue;
+}
+#Navbar .title-container {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Navbar .auth-container {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#Navbar .auth-container .button-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#Navbar .auth-container .button-conatiner h3 {
+  margin-right: 20px;
+}
+#Navbar .auth-container .button-conatiner button {
+  width: 100px;
+  height: 40px;
+  background: inherit;
+  color: white;
+  border: 1px solid white;
+  font-size: 17px;
+}
+#Navbar .auth-container .button-conatiner button:hover {
+  background: blue;
+  border: 1px solid blue;
+}
+#Navbar .auth-container .button-conatiner .unauthed-user {
+  margin: 10px;
+}
+#Navbar .auth-container .button-conatiner .unauthed-user a {
+  text-decoration: none;
+  color: white;
+}
+
+#User-Comp {
+  width: 1200px;
+  height: 100px;
+  box-shadow: 1px 1px 3px 1px blue;
+  margin: 20px;
+  padding: 10px;
+}
+#User-Comp div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+#User-Comp div .title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+#User-Comp div .title-container h2 {
+  color: blue;
+}
+#User-Comp div .title-container h3 {
+  color: orange;
+}
+#User-Comp div .button-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#User-Comp div .button-container button {
+  margin: 20px;
+  padding: 10px;
+  background: inherit;
+  border: 1px solid blue;
+  font-size: 17px;
+}
+#User-Comp div .button-container button:hover {
+  background: blue;
+  color: white;
+}
+
+#User-Comp-current-user {
+  width: 1200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px 1px orange;
+}
+#User-Comp-current-user div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+#User-Comp-current-user div .title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+#User-Comp-current-user div .title-container h2 {
+  color: blue;
+}
+#User-Comp-current-user div .title-container h3 {
+  color: orange;
+}/*# sourceMappingURL=styles.css.map */

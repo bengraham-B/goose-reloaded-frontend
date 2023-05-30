@@ -1,0 +1,123 @@
+#Reload-Component{
+    width: 350px;
+    min-height: 500px;
+    max-height: auto;
+    margin: 20px;
+    padding: 10px;
+    border: $primaryBlue 1px solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 5px  blue;
+
+
+
+    .rc-title-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+        color: $primaryBlue;
+
+        .email-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            width: 100%;
+
+            color: orange;
+        }
+
+        h3 {
+            margin-top:20px;
+        }
+
+        .user-title-input {
+            width: 200px;
+            border: 1px solid orange;
+            font-size: 21px;
+            padding: 5px;
+
+        }
+        
+    }
+
+    .reload-container{
+       
+        border: $primaryBlue 1px solid;
+        border-radius: 5px;
+        margin: 20px 20px;
+        padding: 10px;
+        min-height: 85px;
+        max-height: auto;
+
+        h3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+
+            color: $primaryBlue;
+        }
+
+        h4 {
+            margin: 3px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        p{
+            color: orange;
+            font-size: 1.1em;
+
+        }
+
+        input{ 
+            border: 1px solid orange;
+            padding: 2px;
+            font-size: 15px;
+            padding-left: 5px;
+            color: orange;
+        }
+
+        
+    }
+
+    .button-container {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            height: 40px;
+            width: 100px;
+            border: 1px solid blue;
+            background: inherit;
+            color: $primaryBlue;
+            box-shadow: 5px 5px 0px 2px black;
+
+            &:hover {
+                background: $primaryBlue;
+                color: white;
+            }
+        }
+
+        .cancel-button{
+            background: red;
+            color: white;
+            border: 1px solid red;
+
+            &:hover {
+                background: red;
+                color: white;
+                border: 1px solid red;
+            }
+        }
+        
+    }
+}
+

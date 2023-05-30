@@ -1,0 +1,94 @@
+#Add-Handgun {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+
+    .title-container {
+        width: 100%;
+        height: 10vh;
+        background: $primaryBlue;
+        color: white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .form-container {
+        width: 100%;
+        min-height: 90vh;
+        max-height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .form-wrapper{
+            height: auto;
+            margin: 20px 20px;
+            
+            width: 80%;
+            border-radius: 5px;
+            color: $primaryBlue;
+            box-shadow: 1px 1px 10px 1px grey;
+
+            .title-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+
+            }
+
+            .item-wrapper {
+                margin: 20px;
+                border: 1px solid blue;
+                padding: 20px;
+                border-radius: 5px;
+
+                h2 {
+                    margin: 5px;
+                }   
+
+
+                input {
+                    margin: 5px;
+                    border: 1px solid $primaryBlue;
+                    font-size: 15px;
+                    padding: 5px;
+                    width: 90%;
+                }
+
+            }
+
+            .button-wrapper {
+                margin: 20px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    width: 240px;
+                    height: 60px;
+                    font-size: 21px;
+                    border: 1px solid $primaryBlue;
+                    background: none;
+                    border-radius: 5px;
+                    color: $primaryBlue;
+
+                    &:hover {
+                        background: $primaryBlue;
+                        color: white;
+                    }
+
+                }
+
+            }
+
+        }
+    }
+
+}
+

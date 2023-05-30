@@ -1,0 +1,89 @@
+#User-Comp {
+    width: 1200px;
+    height: 100px;
+    box-shadow: 1px 1px 3px 1px blue;;
+    margin: 20px;
+    padding: 10px;
+
+    //& div was used as i added another div when mapping out the user data, which only has a 
+    //& className if it is the current user's account.
+    div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            height: 100px;
+    
+            h2 {
+                color: blue;
+            }
+    
+            h3 {
+                color: orange;
+            }
+    
+        }
+    
+        .button-container {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            
+            button{
+                margin: 20px;
+                padding: 10px;
+                background: inherit;
+                border: 1px solid blue;
+                font-size: 17px;
+
+                &:hover {
+                    background: blue;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}
+
+//& If the email being mapped macthes the user's email this class will be applied
+#User-Comp-current-user{
+    width: 1200px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 1px orange;;
+
+     //& div was used as i added another div when mapping out the user data, which only has a 
+    //& className if it is the current user's account.
+    div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            height: 100px;
+    
+            h2 {
+                color: blue;
+            }
+    
+            h3 {
+                color: orange;
+            }
+    
+        }
+    }
+}
